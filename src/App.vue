@@ -20,12 +20,26 @@ export default {
 
 <template>
 
+  <div class="container">
+    <div class="row">
+      <div class="col">
+
+        <h1 class="text-center text-white">{{ message }}</h1>
+
+        <div class="text-center text-white p-4">
+          <a class="text-reset"
+            href="https://open.spotify.com/intl-it/artist/2BreedZj1Hl5gzMpY0WZzt?si=Lo5c0l2VQWWTjjaRc_qbnA">Spoty</a>
+        </div>
+        <div class="text-center text-white p-4">
+          <a class="text-reset" href="https://www.youtube.com/@mat7e">YouTube</a>
+        </div>
+
+      </div>
+    </div>
+  </div>
 
 
 
-
-  <!-- // qui scriveremo il codice html -->
-  <h1 class="text-center text-white">{{ message }}</h1>
 </template>
 
 <style lang="scss"></style>
