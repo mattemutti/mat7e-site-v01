@@ -6,7 +6,7 @@ export default {
   //qui ci va il codice di vue
   data() {
     return {
-      message: 'By'
+      message: 'Mat7e'
     }
   },
   methods: {
@@ -25,13 +25,7 @@ export default {
 
 
   <!-- // qui scriveremo il codice html -->
-  <h1>{{ message }}</h1>
+  <h1 class="text-center text-white">{{ message }}</h1>
 </template>
 
-<style>
-//qui scriveremo lo stile del foglio css
-* {
-  border: 1px solid black;
-  background-color: red;
-}
-</style>
+<style lang="scss"></style>
