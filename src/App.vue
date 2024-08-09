@@ -22,7 +22,7 @@ export default {
 
   <div class="container">
     <div class="row">
-      <div class="col">
+      <div class="col py-5">
 
         <h1 class="text-center text-white">{{ message }}</h1>
 
